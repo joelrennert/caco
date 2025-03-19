@@ -174,8 +174,8 @@ import SquareNoAnimation from "../components/SquareNoAnimation.vue";
 }
 
 main {
-  width: 100%;
-  height: 100vh;
+  width: 160vw;
+  height: 160vh;
   font-family: "IBM Plex Mono";
   color: #333;
   background: linear-gradient(90deg, #8463ae94, #fd1d1d7c 20%, #fcb04595);
