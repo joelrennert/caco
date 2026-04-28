@@ -6,7 +6,7 @@ import SquareNoAnimation from "../components/SquareNoAnimation.vue";
   <main>
     <div class="container">
       <SquareNoAnimation
-        v-for="n in 90"
+        v-for="n in 80"
         :key="`square1-${n}`"
         :style="{
           // transform: `scale(${8 - n * 0.1}) rotate(w{n * 12416}deg) translate(${n * 1}px, ${n * 1}px)`,
@@ -71,7 +71,7 @@ import SquareNoAnimation from "../components/SquareNoAnimation.vue";
     background-size: 400% 400%;
   }
   50% {
-    background-size: 200% 200%;
+    background-size: 500% 500%;
   }
   100% {
     background-size: 400% 100%;
@@ -144,7 +144,7 @@ import SquareNoAnimation from "../components/SquareNoAnimation.vue";
     rgba(253, 29, 29, 0.3) 40%,
     rgba(132, 99, 174, 0.4)
   ); */
-  background-color: rgba(255, 246, 246, 0.187);
+  /* background-color: rgba(255, 246, 246, 0.187); */
   background-size: 60% 100%;
 
   background-size: 100% 100%;
